@@ -1,7 +1,5 @@
-# Custom project from Hilla
-
-This project can be used as a starting point to create your own Hilla application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+# Auto Crud Demo
+This project can be used to play around with the AutoCrud component. This component is available for Hilla and allows Users to make CRUD operation on a Java Data Entity. The example implementation can be found in @index.tsx file.
 
 ## Running the application
 
@@ -20,8 +18,8 @@ This will build a JAR file with all the dependencies and front-end resources,
 ready to be deployed. The file can be found in the `target` folder after the build completes.
 
 Once the JAR file is built, you can run it using
-`java -jar target/myapp-1.0-SNAPSHOT.jar` (NOTE, replace
-`myapp-1.0-SNAPSHOT.jar` with the name of your jar).
+`java -jar target/autocrud-demo-1.0-SNAPSHOT.jar` (NOTE, replace
+`autocrud-demo-1.0-SNAPSHOT.jar` with the name of your jar).
 
 ## Project structure
 
@@ -33,7 +31,7 @@ Once the JAR file is built, you can run it using
 entrypoint, bootstraps a React application</td></tr>
   <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>routes.tsx</code></td><td>React Router routes definition</td></tr>
   <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>MainLayout.tsx</code></td><td>Main 
-layout component, contains the navigation menu, uses <a href="https://hilla.dev/docs/react/components/app-layout">
+layout component, contains the navigation menu, uses <a href="https://vaadin.com/docs/latest/components/app-layout">
 App Layout</a></td></tr>
   <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>views/</code></td><td>UI view 
 components</td></tr>
@@ -46,6 +44,7 @@ source directory, contains the server-side Java views</td></tr>
 
 ## Useful links
 
-- Read the documentation at [hilla.dev/docs](https://hilla.dev/docs/).
+- Read the documentation for Hilla at [https://vaadin.com/docs/latest/hilla](https://hilla.dev/docs/).
+- Documentation for AutoCrud at [https://vaadin.com/docs/latest/components/auto-crud](...).
 - Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/vaadin) or join our [Forum](https://vaadin.com/forum).
 - Report issues, create pull requests in [GitHub](https://github.com/vaadin/hilla).
